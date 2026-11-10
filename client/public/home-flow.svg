@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="ribbon" x1="58" y1="906" x2="1477" y2="211" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8" stop-opacity=".08"/>
+      <stop offset=".26" stop-color="#3676FF" stop-opacity=".72"/>
+      <stop offset=".55" stop-color="#7B8BFF" stop-opacity=".23"/>
+      <stop offset=".76" stop-color="#416BFA" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#DDE7FF" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="300" y1="883" x2="1196" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E8AFF" stop-opacity="0"/>
+      <stop offset=".32" stop-color="#477DFF" stop-opacity=".72"/>
+      <stop offset=".66" stop-color="#B4C1FF" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#5179FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(700 0 0 260 1097 342) rotate(90) scale(1 .96)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3447B5" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#101427" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-60%" width="140%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <path fill="#080A11" d="M0 0h1600v1000H0z"/>
+  <path fill="url(#haze)" d="M0 0h1600v1000H0z"/>
+  <path d="M-95 765C180 895 332 901 538 682c201-214 289-442 568-471 174-18 359 97 581 41" stroke="url(#ribbon)" stroke-width="178" opacity=".22" filter="url(#soft)"/>
+  <path d="M-107 730C164 860 326 884 536 653c206-227 294-410 565-445 180-23 370 94 608 47" stroke="url(#ribbon)" stroke-width="96" opacity=".24"/>
+  <path d="M-100 716C174 848 327 865 535 635c207-228 295-403 564-438 183-24 376 91 607 45" stroke="url(#edge)" stroke-width="3" opacity=".7"/>
+  <path d="M-65 238C195 359 367 358 557 247c203-118 269-206 457-175 212 35 334 214 686 108" stroke="url(#ribbon)" stroke-width="120" opacity=".18" filter="url(#soft)"/>
+  <path d="M-75 218C190 337 365 340 552 229c204-121 270-195 458-164 216 36 338 206 685 100" stroke="url(#ribbon)" stroke-width="54" opacity=".3"/>
+  <path d="M-79 207C190 324 362 328 550 218c205-121 271-184 458-152 218 37 341 194 683 91" stroke="url(#edge)" stroke-width="2" opacity=".72"/>
+  <path d="M-73 907C278 759 474 687 727 696c269 9 406 88 577 50 129-29 203-103 356-78" stroke="#315FEA" stroke-width="92" opacity=".14" filter="url(#glow)"/>
+</svg>
